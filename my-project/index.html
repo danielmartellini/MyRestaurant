@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+
+  <title>CA3</title>
+</head>
+
+<body>
+  <main id="pic" >
+    <section class="board">
+      <div id="passChecker" class="form">
+        <div class="formBox">
+          <h2>Password Strength Validator</h2>
+          <input type="password" id="passwordSpace" />
+          <div class="togglePassword">
+            <i class="fa fa-eye"></i>
+            <i class="fa fa-eye-slash"></i>
+          </div>
+          <div class="passPolicies">
+            <div class="polLength">8 Characters</div>
+            <div class="polUppercase">Contains Uppercase</div>
+            <div class="polLowercase">Contains Lowercase</div>
+            <div class="polNumber">Contains Number</div>
+            <div class="polSpecial">Contains Special Character</div>
+          </div>
+        </div>
+      </div>
+      </div>
+      <div class="button">
+        <button class="myButtons" id="clickHide">Show/Hide</button>
+      </div>
+      <hr>
+      <div class="menu" id="menu">
+        <h2>Choose your dishes</h2>
+        <form class="form" id="form1">
+          <select name="starters" id="starterDishes1">
+            <option value="0">SELECT STARTER</option>
+            <option value="7">Bufallo Salad (V)</option>
+            <option value="9">Garlic Prawns</option>
+            <option value="8">Stuffed Mushroom (V)</option>
+          </select>
+          <select name="mains" id="mainDishes1">
+            <option value="0">SELECT MAIN</option>
+            <option value="15">Peperoni Pizza</option>
+            <option value="10">Green Pasta (V)</option>
+            <option value="12">Cheese Pizza</option>
+          </select>
+          <select name="desserts" id="dessertDishes1">
+            <option value="0">SELECT DESSERT</option>
+            <option value="7">Afogatto</option>
+            <option value="7">Tiramisu</option>
+            <option value="6">Caramel Profiteroles</option>
+          </select>
+            <select name="drinks" id="drinks1">
+              <option value="0">SELECT DRINK</option>
+              <option value="3.5">Diet Coke</option>
+              <option value="4">Coke</option>
+              <option value="3.5">Sprite</option>
+              <option value="5.5">Beer</option>
+          </select>
+         
+          <div class="totalBox" id="total1"></div>
+          
+        </form>
+      
+       
+        <form class="form" id="form2">
+          <select name="starters" id="starterDishes2">
+            <option value="0">SELECT STARTER</option>
+            <option value="7">Bufallo Salad (V)</option>
+            <option value="9">Garlic Prawns</option>
+            <option value="8">Stuffed Mushroom (V)</option>
+          </select>
+          <select name="mains" id="mainDishes2">
+            <option value="0">SELECT MAIN</option>
+            <option value="15">Peperoni Pizza</option>
+            <option value="10">Green Pasta (V)</option>
+            <option value="12">Cheese Pizza</option>
+          </select>
+          <select name="desserts" id="dessertDishes2">
+            <option value="0">SELECT DESSERT</option>
+            <option value="7">Afogatto</option>
+            <option value="7">Tiramisu</option>
+            <option value="6">Caramel Profiteroles</option>
+            
+          </select>
+          <select name="drinks" id="drinks2">
+            <option value="0">SELECT DRINK</option>
+            <option value="3.5">Diet Coke</option>
+            <option value="4">Coke</option>
+            <option value="3.5">Sprite</option>
+            <option value="5.5">Beer</option>
+            
+          </select>
+          
+            <div class="totalBox" id="total2"></div>
+        </form>
+       
+       
+        <form class="form" id="form3">
+          <select name="starters" id="starterDishes3">
+            <option value="0">SELECT STARTER</option>
+            <option value="7">Bufallo Salad (V)</option>
+            <option value="9">Garlic Prawns</option>
+            <option value="8">Stuffed Mushroom (V)</option>
+          </select>
+          <select name="mains" id="mainDishes3">
+            <option value="0">SELECT MAIN</option>
+            <option value="15">Peperoni Pizza</option>
+            <option value="10">Green Pasta (V)</option>
+            <option value="12">Cheese Pizza</option>
+          </select>
+          <select name="desserts" id="dessertDishes3">
+            <option value="0">SELECT DESSERT</option>
+            <option value="7">Afogatto</option>
+            <option value="7">Tiramisu</option>
+            <option value="6">Caramel Profiteroles</option>
+          </select>
+          <select name="drinks" id="drinks3">
+            <option value="0">SELECT DRINK</option>
+            <option value="3.5">Diet Coke</option>
+            <option value="4">Coke</option>
+            <option value="3.5">Sprite</option>
+            <option value="5.5">Beer</option>
+        </select>
+        
+          <div class="totalBox" id="total3"></div>
+        </form>
+       
+        <form class="form" id="form4">
+          <select name="starters" id="starterDishes4">
+            <option value="0">SELECT STARTER</option>
+            <option value="7">Bufallo Salad (V)</option>
+            <option value="9">Garlic Prawns</option>
+            <option value="8">Stuffed Mushroom (V)</option>
+          </select>
+          <select name="mains" id="mainDishes4">
+            <option value="0">SELECT MAIN</option>
+            <option value="15">Peperoni Pizza</option>
+            <option value="10">Green Pasta (V)</option>
+            <option value="12">Cheese Pizza</option>
+          </select>
+          <select name="desserts" id="dessertDishes4">
+            <option value="0">SELECT DESSERT</option>
+            <option value="7">Afogatto</option>
+            <option value="7">Tiramisu</option>
+            <option value="6">Caramel Profiteroles</option>
+          </select>
+          <select name="drinks" id="drinks4">
+            <option value="0">SELECT DRINK</option>
+            <option value="3.5">Diet Coke</option>
+            <option value="4">Coke</option>
+            <option value="3.5">Sprite</option>
+            <option value="5.5">Beer</option>
+        </select>
+        
+          <div class="totalBox" id="total4"></div>
+        </form>
+              
+        <form class="form" id="form5">
+          <select name="starters" id="starterDishes5">
+            <option value="0">SELECT STARTER</option>
+            <option value="7">Bufallo Salad (V)</option>
+            <option value="9">Garlic Prawns</option>
+            <option value="8">Stuffed Mushroom (V)</option>
+          </select>
+          <select name="mains" id="mainDishes5">
+            <option value="0">SELECT MAIN</option>
+            <option value="15">Peperoni Pizza</option>
+            <option value="10">Green Pasta (V)</option>
+            <option value="12">Cheese Pizza</option>
+          </select>
+          <select name="desserts" id="dessertDishes5">
+            <option value="0">SELECT DESSERT</option>
+            <option value="7">Afogatto</option>
+            <option value="7">Tiramisu</option>
+            <option value="6">Caramel Profiteroles</option>
+          </select>
+          <select name="drinks" id="drinks5">
+            <option value="0">SELECT DRINK</option>
+            <option value="3.5">Diet Coke</option>
+            <option value="4">Coke</option>
+            <option value="3.5">Sprite</option>
+            <option value="5.5">Beer</option>
+        </select>
+        
+          <div class="totalBox" id="total5"></div>
+        </form>
+
+        <div class="totals" >
+          <div class="totalBox label" > <b>STARTERS:</b></div>
+          <div class="totalBox label" ><b>MAINS:</b></div>
+          <div class="totalBox label" ><b>DESSERTS:</b></div>
+          <div class="totalBox label" ><b>DRINKS:</b></div>
+        <div class="totalBox label"><b>ORDER TOTAL:</b></div>
+        </div>
+ 
+       
+        <div class="totals" >
+          <div class="totalBox" id="startersTotal"></div>
+          <div class="totalBox" id="mainsTotal"></div>
+          <div class="totalBox" id="dessertsTotal"></div>
+          <div class="totalBox" id="drinksTotal"></div>
+        <div class="totalBox" id="totalFinal"></div>
+        </div>
+      </div>
+      <hr>
+
+      <div class="container">
+        <h1>Generate Custumers' Profiles </h1>
+        <button class="myButtons" id="myBtn">Get Data</button>
+      </div>
+      <div id="output"></div>
+
+    </section>
+    <div>
+      <a href="page2.html"><img   class="arrowRight" src="img/pizzaArrowRight.png"></a>
+    </div>
+    
+  </main>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
